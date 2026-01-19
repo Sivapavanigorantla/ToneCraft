@@ -1,0 +1,7 @@
+[theme]
+base="light"
+primaryColor="#D2042D"              # cherry red
+backgroundColor="#FFF8FA"           # sakura white-pink
+secondaryBackgroundColor="#FFE8F0"  # soft blossom panel
+textColor="#2A1B20"                 # warm dark (not harsh black)
+font="sans serif"
