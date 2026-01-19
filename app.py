@@ -68,6 +68,18 @@ def inject_css() -> None:
             background: rgba(210, 4, 45, 0.75);
             margin: 0.25rem 0 0.75rem 0;
           }
+          /* Sakura + Cherry title styling */
+          .sakura-title {
+            font-size: 2.6rem;
+            font-weight: 700;
+            text-align: center;
+            color: #E75480; /* Sakura Pink */
+            margin: 0;
+          }
+
+          .sakura-title span {
+            color: #D2042D; /* Cherry Red */
+          }
         </style>
         """,
         unsafe_allow_html=True,
@@ -192,7 +204,7 @@ def main() -> None:
     st.markdown(
         """
         <div class="sakura-card">
-          <h2 style="margin: 0;">ToneCraft</h2>
+          <h1 class="sakura-title">ToneCraft</h1>
           <div class="cherry-divider"></div>
           <p style="margin: 0.2rem 0 0.4rem 0;">
             Type one sentence, choose a tone, and get a gentle rewrite.
@@ -296,3 +308,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
